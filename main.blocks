@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="JeZPO[lObs]7s(bc=2;8" x="225" y="20"><statement name="HANDLER"><block type="controls_if" id="+(|=sXFaQOZ|Hn(tmY30"><mutation elseif="2"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="89+sk_}W+8J%!bp[z?q}"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="ozrcbb_6zw`1d$tq[6p/"></block></value><value name="B"><shadow type="math_number" id="]WS7l%we5OW*{;%x9pV$"><field name="NUM">128</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="rpZRHhAxI|)x?LVn)6_#"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_set_brightness" id="N*dTqQH|3YKBcI9V7zp|"><value name="value"><shadow type="math_number_minmax" id="4ZCH*`XX:c+`0{be1B]h"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></block></next></block></statement><value name="IF1"><block type="logic_operation" id="ajJUSvCT=GDVC8{8{~/?"><field name="OP">AND</field><value name="A"><block type="logic_compare" id="k+q~oX+mhYJ|-nIIj:+S"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="}s?3Y9(W0LC6edH[@J}M"></block></value><value name="B"><shadow type="math_number" id="gy27*LASpE_C^.kse8sa"><field name="NUM">128</field></shadow></value></block></value><value name="B"><block type="logic_compare" id="ErTGP%{EPg;.qpg~ulbl"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="t[C]#N-Mo1|23w?^8Yup"></block></value><value name="B"><shadow type="math_number" id="C1vcFOLk%~0(E|/,4LL="><field name="NUM">100</field></shadow></value></block></value></block></value><statement name="DO1"><block type="device_show_leds" id="Bqtf8iW$Dq#*mQq,oBM$"><field name="LEDS">`
+        . # # # . 
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        # # # # #
+        `</field><next><block type="device_set_brightness" id="3diJ@xxP#k%uV~*`##8X"><value name="value"><shadow type="math_number_minmax" id="Pi%_}tj+MSWKSdyUZWZ5"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">128</field></shadow></value></block></next></block></statement><value name="IF2"><block type="logic_compare" id="duXm#TBn/JqlAGI~^eGv"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="o(.t]}i^U^o,oTta1%Zq"></block></value><value name="B"><shadow type="math_number" id="x8d@n~5b=y#n=g}x#W/l"><field name="NUM">100</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="n^/h:C(KMP-c8ALo%O/["><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_set_brightness" id="~reZ]dqrg49myTiS:ON-"><value name="value"><shadow type="math_number_minmax" id="]D.ljfP^y|[]9^+lu``w"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">255</field></shadow></value></block></next></block></statement></block></statement></block><block type="device_clear_display" id="e,z5~E_osU@Y_|=cmCoy" disabled="true" x="833" y="313"></block></xml>
